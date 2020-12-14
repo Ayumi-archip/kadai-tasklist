@@ -38,6 +38,8 @@ public class IndexServlet extends HttpServlet {
         response.getWriter().append(Integer.valueOf(tasks.size()).toString());
 
         em.close();
+
+
     }
 
 }
